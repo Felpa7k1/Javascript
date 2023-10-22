@@ -29,6 +29,11 @@ console.log(typeof NaN)
 
 // 4 - Strings
 
-console.log(typeof"Um texto")
-console.log(typeof'Mais um texto')
-console.log('13')
+console.log(typeof"Um texto");
+console.log(typeof'Mais um texto');
+console.log('13');
+
+// 5 - Símbolos especiais em string
+//quebra de linha
+console.log("Texto em \nduas linhas");
+console.log("Espaçamento de \t de tab")
