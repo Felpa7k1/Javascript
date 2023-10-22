@@ -48,3 +48,9 @@ console.log("Oi," + " tudo" + " bem?")
 
 console.log(`A soma de 2 + 2 é: ${ 2 + 2} `)
 console.log(`Podemos executar qualquer coisa aqui ${console.log("teste")}`)
+
+// 8 - Booleans
+
+console.log(typeof true)
+console.log(5 > 20)
+console.log(30 > 10)
