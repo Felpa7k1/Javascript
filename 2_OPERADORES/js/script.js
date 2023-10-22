@@ -35,5 +35,11 @@ console.log('13');
 
 // 5 - Símbolos especiais em string
 //quebra de linha
+
 console.log("Texto em \nduas linhas");
 console.log("Espaçamento de \t de tab")
+
+//6 - Concatenação
+
+console.log("Meu" + "Texto" + "Concatenado")
+console.log("Oi," + " tudo" + " bem?")
