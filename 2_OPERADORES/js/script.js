@@ -26,3 +26,9 @@ console.log(typeof -Infinity);
 console.log(12 * "asd");
 
 console.log(typeof NaN)
+
+// 4 - Strings
+
+console.log(typeof"Um texto")
+console.log(typeof'Mais um texto')
+console.log('13')
