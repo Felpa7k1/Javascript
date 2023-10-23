@@ -56,9 +56,10 @@ console.log(5 > 20)
 console.log(30 > 10)
 
 // 9 - Comparações
-
+console.log(5 <= 5)//menor ou igual
 console.log( 2 == 1) //igual
-console.log(2 >= 1) // diferente de
+console.log(2 >= 1) // maior ou igual
 console.log(1 > 2 ) // maior que
 console.log(1 < 2) // menor que 
 console.log(1 === 1) // identico
+console.log(1 != 1)// diferente de
