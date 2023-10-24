@@ -17,8 +17,9 @@ console.log(typeof idade)
 
 //2 - mais sobre variáveis
 
-// let 2teste = "inválido"
+// let 2teste = "inválido" 
 // let @teste = "inválido"
+//variaveis fora da regra
 
 let a = 10, 
 b = 20, 
