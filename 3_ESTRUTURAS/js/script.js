@@ -25,3 +25,15 @@ b = 20,
 c = 30;
 
 console.log(a, b, c);
+
+const nomecompleto = "Matheus Battisti"
+const nomeCompleto = "Felipe Souza"
+
+console.log(nomecompleto, nomeCompleto);
+
+// simbolos permitidos para criação de variáveis
+
+let _teste = "ok"
+let $teste = "ok"
+
+console.log(_teste, $teste)
