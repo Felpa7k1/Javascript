@@ -15,3 +15,13 @@ console.log(idade)
 console.log(typeof nome)
 console.log(typeof idade)
 
+//2 - mais sobre variáveis
+
+// let 2teste = "inválido"
+// let @teste = "inválido"
+
+let a = 10, 
+b = 20, 
+c = 30;
+
+console.log(a, b, c);
