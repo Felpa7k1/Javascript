@@ -47,3 +47,10 @@ let breakTeste = 123
 // ambiente javascript
 
 alert("teste")
+
+
+//prompt
+
+const age = prompt("Digite a sua idade :")
+
+console.log("Você tem " + age + " anos")
