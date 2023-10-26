@@ -43,3 +43,7 @@ console.log(_teste, $teste)
 // nomes reservados
 
 let breakTeste = 123
+
+// ambiente javascript
+
+alert("teste")
