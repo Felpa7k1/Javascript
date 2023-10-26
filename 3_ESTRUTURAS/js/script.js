@@ -38,3 +38,8 @@ let _teste = "ok"
 let $teste = "ok"
 
 console.log(_teste, $teste)
+
+
+// nomes reservados
+
+let breakTeste = 123
