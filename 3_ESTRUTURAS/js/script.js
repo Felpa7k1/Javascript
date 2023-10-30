@@ -27,38 +27,47 @@ c = 30;
 
 console.log(a, b, c);
 
-const nomecompleto = "Matheus Battisti"
-const nomeCompleto = "Felipe Souza"
+const nomecompleto = "Matheus Battisti";
+const nomeCompleto = "Felipe Souza";
 
 console.log(nomecompleto, nomeCompleto);
 
 // simbolos permitidos para criação de variáveis
 
-let _teste = "ok"
-let $teste = "ok"
+let _teste = "ok";
+let $teste = "ok";
 
-console.log(_teste, $teste)
+console.log(_teste, $teste);
 
 
 // nomes reservados
 
-let breakTeste = 123
+let breakTeste = 123;
 
 // ambiente javascript
 
-alert("teste")
+
 
 
 //prompt
 
-const age = prompt("Digite a sua idade :")
+const age = prompt("Digite a sua idade :");
 
-console.log("Você tem " + age + " anos")
+console.log("Você tem " + age + " anos");
 
 //alert
 
-alert("Testando")
+alert("Testando");
 
-const z = 10
+const z = 10;
 
-alert(`O número é ${z}`)
+alert(`O número é ${z}`);
+
+
+//math
+
+console.log(Math.max(5, 2, 3, 1 , 10));
+
+console.log(Math.floor(5.5));
+
+console.log(Math.ceil(5.14));
