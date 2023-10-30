@@ -51,7 +51,7 @@ let breakTeste = 123;
 
 //prompt
 
-const age = prompt("Digite a sua idade :");
+const age =prompt("Digite a sua idade :");
 
 console.log("Você tem " + age + " anos");
 
@@ -71,3 +71,15 @@ console.log(Math.max(5, 2, 3, 1 , 10));
 console.log(Math.floor(5.5));
 
 console.log(Math.ceil(5.14));
+
+console.log(Math.abs(-6));
+
+console.log(Math.round(3.4))
+
+// objeto console 
+
+console.log("Teste!")
+
+console.error("erro!")
+
+console.warn("aviso!")
