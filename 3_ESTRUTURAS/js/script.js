@@ -97,3 +97,13 @@ if (user === "João"){
 }
 
 console.log(user === "João");
+
+//else
+
+const loggedIn= false
+
+if(loggedIn){
+    console.log("Está autenticado !")
+}   else{
+    console.log("Não está autenticado")
+}
