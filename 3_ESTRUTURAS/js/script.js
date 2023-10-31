@@ -96,14 +96,35 @@ if (user === "João"){
     console.log("Usuário cadastrado");
 }
 
-console.log(user === "João");
+
 
 //else
 
-const loggedIn= false
+const loggedIn= true
 
 if(loggedIn){
     console.log("Está autenticado !")
 }   else{
     console.log("Não está autenticado")
 }
+
+let you = prompt("Você é Homem ou Mulher ?")
+
+if(you === "Homem"){
+    console.log("Você deve se alistar aos 18 anos")
+} else{
+    console.log("Você não precisa se alistar.")
+}
+
+const q = 10
+const w = 15
+
+if(q > 5 && w < 20){
+    console.log("Números mais altos")
+    
+} else{
+    console.log("Os números não são mais altos")
+}
+
+//else if
+
