@@ -135,3 +135,24 @@ if(1 > 2){
 } else if(5 > 1){
     console.log("Condição verdadeira")
 }
+
+let userName = prompt("Você tem quantos anos ?")
+
+if (userName === 18){
+    console.log("Você tem que se alistar obrigatoriamente")
+} else if (userName > 18){
+    console.log("Você já se alistou anteriormente")
+} else {
+    console.log("Você deverá se alistar com 18 anos")
+}
+
+const UserName = "matheus" 
+const UserAge = 31
+
+if(UserName === "José"){
+    console.log("Bem vindo José")
+} else if( UserName === "Matheus"){
+    console.log("Bem vindo Matheus.")
+} else{
+    console.log("Nenhuma condição aceita")
+}
