@@ -126,5 +126,12 @@ if(q > 5 && w < 20){
     console.log("Os números não são mais altos")
 }
 
-//else if
+//9 - else if
 
+if(1 > 2){
+    console.log("Teste")
+} else if(2 > 3){
+    console.log("Teste 2")
+} else if(5 > 1){
+    console.log("Condição verdadeira")
+}
