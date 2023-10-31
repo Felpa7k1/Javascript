@@ -34,15 +34,15 @@
 
 // simbolos permitidos para criação de variáveis
 
-let _teste = "ok";
-let $teste = "ok";
+// let _teste = "ok";
+// let $teste = "ok";
 
-console.log(_teste, $teste);
+// console.log(_teste, $teste);
 
 
 // nomes reservados
 
-let breakTeste = 123;
+// let breakTeste = 123;
 
 // ambiente javascript
 
@@ -72,87 +72,96 @@ let breakTeste = 123;
 
 // console.log(Math.ceil(5.14));
 
-console.log(Math.abs(-6));
+// console.log(Math.abs(-6));
 
-console.log(Math.round(3.4));
+// console.log(Math.round(3.4));
 
 //objeto console
 
-console.log("Teste!");
+// console.log("Teste!");
 
-console.error("erro!");
+// console.error("erro!");
 
 // console.warn("aviso!")
 
 //if - estrutura condicional
 
-let Idade = prompt("Quantos anos você tem ?");
-if(Idade >=18){
-    console.log("Você pode tirar habilitação");
-}
-const user = "João"
+// let Idade = prompt("Quantos anos você tem ?");
+// if(Idade >=18){
+//     console.log("Você pode tirar habilitação");
+// }
+// const user = "João"
 
-if (user === "João"){
-    console.log("Usuário cadastrado");
-}
+// if (user === "João"){
+//     console.log("Usuário cadastrado");
+// }
 
 
 
 //else
 
-const loggedIn= true
+// const loggedIn= true
 
-if(loggedIn){
-    console.log("Está autenticado !")
-}   else{
-    console.log("Não está autenticado")
-}
+// if(loggedIn){
+//     console.log("Está autenticado !")
+// }   else{
+//     console.log("Não está autenticado")
+// }
 
-let you = prompt("Você é Homem ou Mulher ?")
+// let you = prompt("Você é Homem ou Mulher ?")
 
-if(you === "Homem"){
-    console.log("Você deve se alistar aos 18 anos")
-} else{
-    console.log("Você não precisa se alistar.")
-}
+// if(you === "Homem"){
+//     console.log("Você deve se alistar aos 18 anos")
+// } else{
+//     console.log("Você não precisa se alistar.")
+// }
 
-const q = 10
-const w = 15
+// const q = 10
+// const w = 15
 
-if(q > 5 && w < 20){
-    console.log("Números mais altos")
+// if(q > 5 && w < 20){
+//     console.log("Números mais altos")
     
-} else{
-    console.log("Os números não são mais altos")
-}
+// } else{
+//     console.log("Os números não são mais altos")
+// }
 
 //9 - else if
 
-if(1 > 2){
-    console.log("Teste")
-} else if(2 > 3){
-    console.log("Teste 2")
-} else if(5 > 1){
-    console.log("Condição verdadeira")
-}
+// if(1 > 2){
+//     console.log("Teste")
+// } else if(2 > 3){
+//     console.log("Teste 2")
+// } else if(5 > 1){
+//     console.log("Condição verdadeira")
+// }
 
-let userName = prompt("Você tem quantos anos ?")
+// let userName = prompt("Você tem quantos anos ?")
 
-if (userName === 18){
-    console.log("Você tem que se alistar obrigatoriamente")
-} else if (userName > 18){
-    console.log("Você já se alistou anteriormente")
-} else {
-    console.log("Você deverá se alistar com 18 anos")
-}
+// if (userName === 18){
+//     console.log("Você tem que se alistar obrigatoriamente")
+// } else if (userName > 18){
+//     console.log("Você já se alistou anteriormente")
+// } else {
+//     console.log("Você deverá se alistar com 18 anos")
+// }
 
-const UserName = "matheus" 
-const UserAge = 31
+// const UserName = "matheus" 
+// const UserAge = 31
 
-if(UserName === "José"){
-    console.log("Bem vindo José")
-} else if( UserName === "Matheus"){
-    console.log("Bem vindo Matheus.")
-} else{
-    console.log("Nenhuma condição aceita")
+// if(UserName === "José"){
+//     console.log("Bem vindo José")
+// } else if( UserName === "Matheus"){
+//     console.log("Bem vindo Matheus.")
+// } else{
+//     console.log("Nenhuma condição aceita")
+// }
+
+// estruturas de repetição - while
+
+let p = 1;
+
+while(p > 5) {
+    console.log(`Repetindo ${p}`);
+    p = p + 1;
 }
