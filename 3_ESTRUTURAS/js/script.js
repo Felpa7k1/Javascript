@@ -187,3 +187,16 @@ let r = 6
 for(r; r > 0; r = r - 1){
     console.log(`O R está diminuindo: ${r}`);
 }
+
+
+// identação
+
+for (let u = 0; u < 10; u++){
+    if(u* 2 > 10) {
+        console.log(`Maior que 10! ${u}`)    
+} else {
+    if(u / 2 === 0){
+        console.log("Deu 0")        
+    }
+ }    
+}   
