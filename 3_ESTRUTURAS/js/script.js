@@ -273,3 +273,10 @@ switch(l){
     default:
         console.log("L não foi encontrado")    
 }
+
+// Convenção de nomes
+
+let programadorcadastrado // ruim
+let programador_cadastrado // snake case
+let ProgramadorCadastrado // não utilizar
+let programadorCadastrador // mais utilizado
