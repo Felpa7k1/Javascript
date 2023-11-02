@@ -62,3 +62,5 @@ alert("Testando")
 const z = 10
 
 alert(`O número é ${z}`)
+
+//math
