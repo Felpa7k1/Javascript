@@ -240,4 +240,36 @@ for (let s = 0; s < 10; s = s + 1){
     }
     console.log(s)
 }
-//math
+
+// 16 - switch
+
+const job = "asd"
+
+switch(job) {
+    case "Programador":
+        console.log("Você é um Programador!");
+        break;
+    case "Advogado":
+        console.log("Você é um Advogado!");
+        break;    
+    case "Engenheiro":
+        console.log("Você é um Engenheiro!");
+        break;
+        default:
+            console.log("Profissão não encontrada");    
+}
+
+//switch "errado" - sem utilizar o break, apartir da condição verdadeira todas serão verdadeiras
+
+const l = 100
+
+switch(l){
+    case 200:
+        console.log("L é 200!")
+    case 100:
+        console.log("L é 100!")    
+    case 10:
+        console.log("L é 10!")    
+    default:
+        console.log("L não foi encontrado")    
+}
