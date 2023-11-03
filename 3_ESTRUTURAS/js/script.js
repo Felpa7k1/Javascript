@@ -279,4 +279,4 @@ switch(l){
 let programadorcadastrado // ruim
 let programador_cadastrado // snake case
 let ProgramadorCadastrado // não utilizar
-let programadorCadastrador // mais utilizado
+let programadorCadastrado // mais utilizado
