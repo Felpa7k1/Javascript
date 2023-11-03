@@ -19,4 +19,13 @@ function funcaoComParametro(txt){
 
 funcaoComParametro("Imprimindo alguma coisa");
 
-funcaoComParametro("Outra função")
+funcaoComParametro("Outra função");
+
+function idade(txt){
+    console.log(`Esta é a minha idade ${txt}`)
+}
+
+idade("12");
+
+
+// 2 - Retornando valores
