@@ -50,3 +50,23 @@ function sub(n1,n2){
 }
 
 console.log(sub(a,d));
+
+// 3- escopo da função
+
+let y = 15
+
+function testandoEscopo(){
+    let y = 20;
+    console.log(`Y dentro da função é : ${y}`)
+}
+
+
+testandoEscopo();
+
+
+y = 5;
+
+console.log(`Y fora da função é : ${y}`);
+
+
+testandoEscopo();
