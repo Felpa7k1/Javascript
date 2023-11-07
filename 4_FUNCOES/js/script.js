@@ -98,3 +98,28 @@ function escopoAninhado(){
 escopoAninhado();
 
 console.log(m);
+
+// teste
+
+let s = 10;
+
+function escopo(){
+    let s = 20
+
+    if(true){
+        let s = 30
+    
+
+    if(true){
+        let s = 40;
+        console.log(s)
+    }
+
+
+    console.log(s)
+}    
+    console.log(s)
+}
+escopo();
+
+console.log(s)
