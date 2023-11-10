@@ -44,3 +44,19 @@ console.log(text.toUpperCase());
 console.log(typeof text.toUpperCase);
 
 console.log(text.indexOf("g"));
+
+
+// objetos
+const person = {
+    name : "Matheus",
+    age : 31,
+    job: "Programador"
+}
+
+console.log(person);
+
+console.log(person.name);
+
+console.log(person.name.length)
+
+console.log(typeof person)
