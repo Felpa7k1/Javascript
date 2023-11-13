@@ -76,3 +76,26 @@ console.log(car)
 delete car.km
 
 console.log(car)
+
+
+//diferença entre arrays e objetos
+
+// 7- mais sobre objetos - método assing
+
+
+const obj ={
+    a: "teste",
+    b:true
+
+}
+
+console.log(obj instanceof Object)
+
+const obj2 = {
+    c: []
+}
+
+Object.assign(obj2, obj);
+
+console.log(obj2);
+console.log(obj)
