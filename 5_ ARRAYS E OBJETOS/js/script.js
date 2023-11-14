@@ -157,6 +157,21 @@ console.log(itemRemovido)
 
 console.log(array)
 
-array.push("z", "x", "y")
+array.push("z", "x", "y");
 
-console.log(array)
+console.log(array);
+
+//shift e unshifit 
+
+array.unshift("9");
+console.log(array);
+array.shift();
+console.log(array);
+
+const letters = ["a", "b", "c"]
+
+letters.unshift("1");
+console.log(letters);
+const letter = letters.shift();
+console.log(letters);
+console.log(letter)
