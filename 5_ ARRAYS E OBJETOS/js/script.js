@@ -170,8 +170,21 @@ console.log(array);
 
 const letters = ["a", "b", "c"]
 
-letters.unshift("1");
+letters.unshift("0");
 console.log(letters);
 const letter = letters.shift();
 console.log(letters);
 console.log(letter)
+
+//indexof lastIndexOf
+
+const myElements = ["Morango", "Abacaxi", "Tomate", "Pera", "Morango"]
+
+console.log(myElements.indexOf("Morango"))
+console.log(myElements.indexOf("Tomate"))
+console.log(myElements.lastIndexOf("Morango"))
+
+console.log(myElements[2])
+console.log(myElements[4])
+
+
