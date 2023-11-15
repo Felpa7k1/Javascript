@@ -204,3 +204,33 @@ console.log(subArray2)
 const subArray3 = testeSlice.slice(2);
 
 console.log(subArray3)
+
+
+// forEach
+
+const nums = [1, 2, 3, 4, 5]
+
+nums.forEach((numero) =>{
+    console.log(`O número é ${numero}`)
+})
+
+const posts = [
+    {title:"Primeiro post", category:"PHP"},
+    {title:"Segundo post", category:"JavaScript"},
+    {title:"Terceiro post", category:"Python"}
+]
+
+posts.forEach((post)=>{
+    console.log(`Exibindo post ${post.title}, da categoria ${post.category}`)
+})
+
+
+const models = [
+    {title:"HB20", color:"Azul"},
+    {title:"Nivus", color:"Preto"},
+    {title:"Bmw", color:"Cinza"},
+]
+
+models.forEach((model)=>{
+    console.log(`Exibindo o modelo ${model.title}, cor ${model.color}`)
+})
