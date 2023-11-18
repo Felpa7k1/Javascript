@@ -256,3 +256,10 @@ console.log(rever)
 
 //metodos de string
 
+//trim - remove tudo que não é texto de uma string
+
+const trimTest = "  trim\n  "
+console.log(trimTest);
+console.log(trimTest.trim());
+console.log(trimTest.length);
+console.log(trimTest.trim().length)
