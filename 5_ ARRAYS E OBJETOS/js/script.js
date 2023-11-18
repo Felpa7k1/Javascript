@@ -294,3 +294,8 @@ const fraseDeCompra = `Precisamos comprar : ${itensParaComprar.join(", ")}.`
 
 console.log(fraseDeCompra)
 
+// repeat
+
+const palavra = "Testando "
+
+console.log(palavra.repeat(5));
