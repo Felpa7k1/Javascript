@@ -253,3 +253,6 @@ if(brands.includes("BMW")){
 const rever = [1, 2, 3, 4, 5]
 rever.reverse();
 console.log(rever)
+
+//metodos de string
+
