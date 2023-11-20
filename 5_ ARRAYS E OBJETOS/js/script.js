@@ -358,3 +358,31 @@ const myList = ["Avião", "Submarino", "Carro"]
 const [veiculoA, veiculoB, veiculoC] = myList;
 
 console.log(veiculoA, veiculoB, veiculoC);
+
+// json
+
+const myJSon = '{"name":"Matheus", "age":31, "skills":["PHP", "JavaSrcript", "Python"]}'
+
+console.log(myJSon)
+console.log(typeof(myJSon))
+
+// metodos de conversão JSon para objeto e objeto para JSon
+
+const myObject = JSON.parse(myJSon)
+
+console.log(typeof(myObject));
+console.log(myObject.skills);
+
+//json invalido
+
+const badJson = '{"name":"Matheus","age":31}'
+
+const myObject2 = JSON.parse(badJson);
+
+myObject.isOpenToWork = true;
+
+console.log(myObject);
+
+const myNewJson = JSON.stringify(myObject);
+
+console.log(myNewJson)
