@@ -32,3 +32,19 @@ console.log(pessoa.getNome());
 pessoa.setNome("Joaquim");
 
 console.log(pessoa.getNome());
+
+// 3 - sobre o prototype
+
+const text ="asdss"
+
+console.log(Object.getPrototypeOf(text));
+
+const bool = true
+
+console.log(Object.getPrototypeOf(bool));
+
+const arr = []
+
+console.log(Object.getPrototypeOf(arr));
+
+console.log(arr.length)
