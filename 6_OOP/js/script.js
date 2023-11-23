@@ -126,5 +126,12 @@ const husky = new Cachorro("Toby", "Husky");
 
 console.log(husky);
 
+// metodos na funcao construtora
 
+Cachorro.prototype.uivar = function(){
+    console.log("Auuuuuuuuu!")
+}
 
+console.log(husky)
+
+husky.uivar()
