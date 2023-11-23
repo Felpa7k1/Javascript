@@ -93,3 +93,24 @@ const bulldog = Object.create(cachorro);
 bulldog.raca = "Bulldog"
 
 console.log(bulldog);
+
+
+// classes baseadas em funcoes construtoras
+
+function criarCachorro(nome, raca){
+
+    const cachorro = Object.create({})
+
+    cachorro.nome = nome
+    cachorro.raca = raca
+
+    return cachorro
+}
+
+const bob = criarCachorro("Bob", "Vira Lata");
+
+console.log(bob)
+
+const jack = criarCachorro("Jack", "Poodle");
+
+console.log(Object.getPrototypeOf(jack));
