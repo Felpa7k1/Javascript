@@ -152,3 +152,37 @@ const jeff = new CachorroClasse("Jeff", "Labrador");
 console.log(jeff);
 
 console.log(Object.getPrototypeOf(jeff));
+
+
+// mais sobre classes
+
+class Caminhao{
+    constructor(eixos,cor){
+        this.eixos = eixos
+        this.cor = cor
+    }
+
+    descreverCaminhao(){
+        console.log(`Este caminhão possui ${this.eixos} eixos e cor ${this.cor}`)
+    }
+}
+
+const benz = new Caminhao(6, "azul");
+
+console.log(benz);
+
+benz.descreverCaminhao();
+
+
+
+const c2 = new Caminhao(7, "Verde");
+ 
+console.log(c2);
+
+console.log(c2.motor);
+
+Caminhao.prototype.motor = 4.0
+
+const c3 = new Caminhao(6, "Preto");
+
+console.log(c3.motor)
