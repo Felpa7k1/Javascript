@@ -186,3 +186,44 @@ Caminhao.prototype.motor = 4.0
 const c3 = new Caminhao(6, "Preto");
 
 console.log(c3.motor)
+
+//overrride 
+
+class Carro{
+    constructor(modelo, cor){
+        this.modelo = modelo
+        this.cor = cor
+    }
+
+    descreverCarro(){
+        console.log(`O carro escolhido é do modelo ${this.modelo} e cor ${this.cor}`)
+    }
+}
+
+const hb20 = new Carro("HB20","Branco");
+
+console.log(hb20);
+
+Carro.prototype.motor = 4.0
+
+console.log(hb20.motor);
+
+console.log(hb20);
+
+
+class Humano{
+    constructor(nome, idade){
+        this.nome = nome
+        this.idade = idade
+    }
+
+}
+
+const matheus = new Humano ("Matheus", 31);
+
+console.log(matheus);
+
+Humano.prototype.idade = "Não definido"
+
+console.log(matheus.idade);
+console.log(Humano.prototype.idade);
