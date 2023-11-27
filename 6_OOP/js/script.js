@@ -210,6 +210,7 @@ console.log(hb20.motor);
 
 console.log(hb20);
 
+// override
 
 class Humano{
     constructor(nome, idade){
@@ -227,3 +228,4 @@ Humano.prototype.idade = "Não definido"
 
 console.log(matheus.idade);
 console.log(Humano.prototype.idade);
+
