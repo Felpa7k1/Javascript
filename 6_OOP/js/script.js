@@ -229,3 +229,25 @@ Humano.prototype.idade = "Não definido"
 console.log(matheus.idade);
 console.log(Humano.prototype.idade);
 
+//symbols em classes
+
+class Aviao {
+    constructor (marca, turbinas){
+        this.marca = marca
+        this.turninas = turbinas
+    }
+}
+
+const asas = Symbol();
+const pilotos = Symbol();
+Aviao.prototype[pilotos] = 3;
+Aviao.prototype[asas] = 2;
+
+const airline = new Aviao("Airline", 4);
+
+console.log(airline[asas]);
+console.log(airline[pilotos]);
+
+Aviao.prototype.motor = 4.0;
+
+console.log(airline);
