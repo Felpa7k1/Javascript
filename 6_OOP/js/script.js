@@ -251,3 +251,30 @@ console.log(airline[pilotos]);
 Aviao.prototype.motor = 4.0;
 
 console.log(airline);
+
+//getters e setters
+
+class Post{
+    constructor(titulo, descricao,tags){
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.tags = tags;
+    }
+    get exibirTitulo(){
+        return `Voce está lendo ${this.titulo}`
+    }
+    set adicionarTags(tags){
+        const tagsArrays = tags.split(", ")
+        this.tags = tagsArrays
+    }
+}
+
+const myPost = new Post("algum post", "É um post sobre programação");
+
+console.log(myPost);
+
+console.log(myPost.exibirTitulo);
+
+myPost.adicionarTags = "programacao, javascript, js"
+
+console.log(myPost);
